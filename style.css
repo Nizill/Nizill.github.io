@@ -1,0 +1,78 @@
+ #logo1a {background: rgba(0, 0, 0, 0.8); width: 25%; height: 6%; position: absolute; top:25%; left:60%; border: 2px solid black; border-left: 0px}
+ #logo2a {background: rgba(0, 0, 0, 0.6);  width: 45%; height: 2150px; position: absolute; top:32%; left:15%; border: 2px solid black; border-right: 0px;}
+ #logo3a {background: rgba(0, 0, 0, 0.6); width: 25%; height: 2150px; position: absolute; top:32%; left:60%;border: 2px solid black;border-left: 0px; }
+ #logo4a {background: rgba(0, 0, 0, 0.8); width: 45%; height: 6%; position: absolute; top:25%; left:15%; border: 2px solid black; border-right: 0px; }
+ #logo5a {top: 160px; width: 312px; height: 58px; position: absolute;}
+ #logo6a {top: 235px; width: 312px; height: 58px; position: absolute;}
+ #logo7a {top: 310px; width: 312px; height: 58px; position: absolute;}
+ #logo8a {top: 385px; width: 312px; height: 58px; position: absolute;}
+ p{color: #ffffff; font-size: 10pt; text-indent:20px; font-family:arial,serif; margin-left:32px; line-height: 1.6; }
+ 
+/*background: url(http://media.steampowered.com/apps/csgo/blog/images/playsteam_rest.png?v=6) no-repeat 0 0;*/
+/*width: 312px;*/
+/*height: 67px; */
+
+a:link {
+			color: #fff; /* Цвет ссылок */
+			padding: 5px; /* Поля вокруг текста */
+			text-decoration: none; /* Убираем подчеркивание у ссылок */			
+		}
+a:hover {
+			background-color: rgba(245, 145, 15, 0.6);
+			border-radius: 10px;
+		}
+font{color: #ff9408;}
+ *,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#mainmenu {
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+    margin: 10px 0
+}
+#mainmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+    font: 17px Arial, Helvetica, sans-serif;
+    height: 30px
+}
+#mainmenu ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0 10px;
+    height: 40px
+}
+#mainmenu ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 0 15px;
+}
+#mainmenu ul li a:hover {
+    background-color: rgba(245, 145, 15, 0.6);
+	border-radius: 10px;
+}
+
+/*Для картинки*/
+    img {
+    border: 3px solid #666;
+   }
+    hr {
+    border: none; /* Убираем границу */
+    color: #666; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+   }
