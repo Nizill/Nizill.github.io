@@ -1,4 +1,4 @@
-var pjs = new PointJS('2D', 500, 250);
+var pjs = new PointJS('2D', 500, 800);
 // pjs.system.consoleLog(true);
 
 pjs.system.initFullPage();
